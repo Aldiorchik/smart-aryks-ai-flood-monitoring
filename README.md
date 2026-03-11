@@ -24,6 +24,7 @@ H --> J[Flood Risk Map]
 K[Citizen Reports] --> L[Computer Vision Model]
 L --> H
 M[Retraining Scheduler] --> D[End]
+
 ## Key Features
 
 ### IoT Sensor Simulation
