@@ -13,30 +13,29 @@ This project focuses on **ML engineering and system design**, not just model tra
 ```mermaid
 flowchart TD
 
-    A[IoT Sensors Water Level Rainfall] --> B[Sensor Stream]
+A[IoT Sensors<br>Water Level / Rainfall] --> B[Sensor Stream]
 
-    B --> C[Feature Store]
+B --> C[Feature Store]
 
-    C --> D[ML Training Pipeline]
+C --> D[ML Training Pipeline]
 
-    D --> E[MLflow Experiment Tracking]
+D --> E[MLflow Experiment Tracking]
 
-    E --> F[Model Registry]
+E --> F[Model Registry]
 
-    F --> G[Prediction API FastAPI]
+F --> G[Prediction API<br>FastAPI]
 
-    G --> H[PostgreSQL Database]
+G --> H[PostgreSQL Database]
 
-    H --> I[Monitoring Dashboard Streamlit]
+H --> I[Monitoring Dashboard<br>Streamlit]
 
-    H --> J[Flood Risk Map GIS Visualization]
+H --> J[Flood Risk Map<br>GIS Visualization]
 
-    K[Citizen Reports Image Upload] --> L[Computer Vision Model]
+K[Citizen Reports<br>Image Upload] --> L[Computer Vision Model]
 
-    L --> H
+L --> H
 
-    M[Retraining Scheduler] --> D
-
+M[Retraining Scheduler] --> D
 ## Key Features
 
 ### IoT Sensor Simulation
